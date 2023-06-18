@@ -19,10 +19,16 @@ export default {
 
 <style scoped>
 
+html, body{
+  overflow-y:hidden !important;
+}
+
 #main{
   scroll-behavior: smooth !important;
   background-color: rgb(29, 28, 28);
   overflow-x:hidden !important;
+  
+
 }
 
 </style>

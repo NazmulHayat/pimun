@@ -141,8 +141,13 @@ export default defineComponent({
   filter: contrast(100%);
 }
 
+
+html, body{
+  overflow-y:hidden !important;
+}
+
 .frst{
-  background-image: url("../assets/background-cool.jpg");
+  background-image: url("../assets/background-cool-compressed.jpg");
   background-repeat: no-repeat;
   background-size: auto;
   background-size: cover;
