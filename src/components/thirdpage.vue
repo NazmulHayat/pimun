@@ -32,7 +32,7 @@
   <v-row>
     <template v-for="(image, imgidx) in imageLayout" :key="imgidx">
       <v-col id="im" :cols="image.cols">
-        <v-img :src="require(`@/assets/${imgidx+1}.jpg`)" cover height = "100%"></v-img>
+        <v-img :src="require(`@/assets/compressed/${imgidx+1}-compressed.jpg`)" cover height = "100%"></v-img>
       </v-col>
       
     </template>
@@ -71,6 +71,10 @@
 
 
 <style>
+#main{
+  overflow-y: hidden !important;
+  scroll-behavior: smooth;
+}
   #im{
     padding: .8rem !important;
   }

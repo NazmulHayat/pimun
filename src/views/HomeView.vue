@@ -13,19 +13,30 @@
           <v-col class="parent"  justify="center" align="center">
             <Timerdamn id="tf"></Timerdamn>
           </v-col>
-          <v-col class="fuc">
-            <div id="shitbtn" class="mt-4 pt-4 pb-1"   justify="center" align="center" >
-              <v-btn  elevation="24" class="bg-black text-white font-weight-bold" size="large" variant="tonal" >
-                REGISTER NOW
-                <v-icon class="pl-3"
-                icon="mdi-arrow-right"
-              ></v-icon></v-btn>
-            </div>
-            <p align="center" style="margin-bottom: auto;" class="text-subtitle mt-0 pt-0 font-weight-bold">31st Aug - 2nd Sept 2023</p>
+          <v-col class="fu">
+            <v-row justify="center" class="pa-2">
+              <div id="shitbtn" class="mt-4 pt-4 pb-1 pr-4"   justify="center" align="center" >
+                <v-btn  elevation="24" class="bg-black text-white font-weight-bold" size="large" variant="tonal" >
+                  REGISTER AS CA
+                  <v-icon class="pl-3"
+                  icon="mdi-arrow-right"
+                ></v-icon></v-btn>
+              </div>
+              <div id="shitbtn" class="mt-4 pt-4 pb-1 pl-4"   justify="center" align="center" >
+                <v-btn  elevation="24" class="bg-black text-white font-weight-bold" size="large" variant="tonal" >
+                  REGISTER AS DELEGATE
+                  <v-icon class="pl-3"
+                  icon="mdi-arrow-right"
+                ></v-icon></v-btn>
+              </div>
+            </v-row>
+            <div class="pa-4">
+                <p align="center" style="margin-bottom: auto;" class="text-subtitle mt-0 pt-0 font-weight-bold">31st Aug - 2nd Sept 2023</p>
+              </div>
           </v-col>   
           <v-col class="borobhai">   
             <v-col class="abb">
-                <div class="arrow bounce" >
+                <div class="arrow bounce mt-4 pa-4">
                   <a class="fa fa-arrow-down fa-2x"  href="#e1">
                     <svg-icon type="mdi" size=50 :path="path"></svg-icon>
                   </a>
@@ -141,6 +152,8 @@ export default defineComponent({
   display: flex;
   justify-content: center;
   overflow-x:hidden !important;
+  overflow-y: hidden !important;
+  scroll-behavior: smooth;
 }
 
 .scnd-pg{
