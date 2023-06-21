@@ -45,11 +45,10 @@ export default {
           require('../assets/og1.jpg'),
           require("../assets/pimuncollage.png"),
           require("../assets/bg-page.jpg")
-        ], function () {
+        ], () => {
           console.log('All images were loaded');
           this.isloaded = true;
         });
-        
       }
     }
   },
