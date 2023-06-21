@@ -1,10 +1,20 @@
 <template>
-  <v-app id="main" theme="dark">
+  <v-app>
     <v-main>
       <router-view/>
     </v-main>
   </v-app>
 </template>
+
+
+<style>
+html, body {
+    width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+</style>
+
 
 <script>
 
@@ -16,19 +26,3 @@ export default {
   }),
 }
 </script>
-
-<style scoped>
-
-html, body{
-  overflow-y:hidden !important;
-}
-
-#main{
-  scroll-behavior: smooth !important;
-  background-color: rgb(29, 28, 28);
-  overflow-x:hidden !important;
-  
-
-}
-
-</style>

@@ -1,0 +1,10 @@
+
+
+.v-btn.v-btn--density-default {
+    height: calc(var(--v-btn-height) + 0px);
+}
+
+.v-btn:hover{
+    color: black !important;
+    background-color: white !important;
+}

@@ -1,76 +1,22 @@
 <template>
-    <v-container fill-height align="center">
-        <v-col align ="center">
-
-            <v-carousel hide-delimiters cycle="true" theme="dark">
-                <v-carousel-item>
-                    <div class="img-container">
-                        <v-img id="hi" contain src="../assets/background-cool.jpg"></v-img>
-                    </div>
-                </v-carousel-item>
-                <v-carousel-item  id="hi" cover src="../assets/background.jpg">
-                </v-carousel-item>
-                <v-carousel-item   id="hi" cover center src="../assets/bg2.jpg">
-                </v-carousel-item>
-
-            </v-carousel>
-
-
-
-            <v-spacer></v-spacer>
-            <v-row align="space-around" class="pt-4 mt-4" wrap flex-direction="col">
-                <v-col class="ma-4 pa-4"  v-motion-pop-visible  >
-                    <v-card class="crd pa-4" elevation="24"  >
-                        <div class="bleh text-h3">250+</div>
-                        <div  class="text-subtitle">Delegates</div>
-                    </v-card>
-                </v-col>
-                <v-divider vertical thickness="4"/>
-                <v-col class="ma-4 pa-4"  v-motion-pop-visible >
-                    <v-card class="crd pa-4" elevation="24" >
-                        <div class="text-h3">20+</div>
-                        <div class="text-subtitle">Executive Board Members</div>
-                    </v-card>
-                </v-col>
-                <v-divider vertical thickness="4" />
-                <v-col class="ma-4 pa-4"  v-motion-pop-visible >
-                    <v-card class="crd pa-4" elevation="24" >
-                        <div class="text-h3">8</div>
-                        <div  class="text-subtitle">Committees</div>
-                    </v-card> 
-                </v-col>
-            </v-row>
-        </v-col>
-    </v-container>
+  <section class="second  px-4 mx-4 mb-4">
+    <div class="wrapper">
+      <v-img class="img-bg" cover src="../assets/bg-page.jpg"></v-img>
+      <div class="img-info">
+        <div class="pt-4">
+          <div class="aboutus text-h5 pb-2 text-md-h4 font-weight-black">ABOUT US</div>
+          <p class="pimun text-h4 text-md-h3 font-weight-black">PIMUN 2023</p>
+        </div>
+        <article class="about pt-3">
+          <p>Presidency MUN Club is exhilarated to announce the comeback of our signature event after four long years! We are here again to organize our second and latest edition – Presidency International Model United Nations 2023. We strive to be the best while allowing our peers to compete on an international scale and pushing them to go above and beyond their limits as delegates. The event is scheduled to be hosted from 31st August – 2nd September, 2023 in Presidency International School in the heart of the economic hub of Bangladesh.<br>  </p>
+          <p><br>Bearing risen tensions, we have set “Cooperation and Collaboration for pursuing World Peace” as the theme of the event. Presidency International MUN is ready to set benchmarks in the MUN circuit, through engaging young diplomats where we’ll be expecting the delegates to delve into debates about world issues. It gives the PIMUN Secretariat Board immense pleasure to officially welcome you to this awaited occasion! We are only getting started.</p>
+        </article>
+      </div>
+    </div>
+  </section>
 </template>
 
 
 <style>
-
-#hi{
-}
-
-.img-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    vertical-align: middle;
-}
-
-
-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-img{
-    max-width: 100%;
-    height: auto;
-    width: auto\9
-}
-
-
-
+  @import './SecondPage.css';
 </style>

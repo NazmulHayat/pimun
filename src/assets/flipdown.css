@@ -294,7 +294,7 @@
     height: 25px;
   }
   .flipdown .rotor-group:nth-child(n+4) {
-    visibility: hidden;
+    display: none;
   }
   .flipdown{
     padding-top: 10px !important;

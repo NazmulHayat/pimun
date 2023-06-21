@@ -1,0 +1,72 @@
+.second{
+    height: auto;
+    max-width: 100%;
+    padding: 20px;
+    margin-top: 50px;
+    overflow-x: hidden !important;
+    padding-bottom: 40px !important;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Jost&family=Literata:ital@1&family=Merriweather:wght@900&display=swap');
+
+
+
+.aboutus{
+    font-family: "Jost", Sans-serif !important;
+    text-transform: uppercase;
+    letter-spacing: 1px !important;
+    color: #861819;
+}
+
+.pimun{
+    font-family: "Jost", Sans-serif !important;
+}
+
+.about{
+    font-family: "Jost", Sans-serif !important;
+    word-wrap: break-word !important;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .wrapper{
+        width: 650px;
+        margin: 0 auto;
+        
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .wrapper{
+        width: 950px;
+        display: flex;
+        justify-content: center;
+    }
+    .img-info{
+        width: 50%;
+        padding-left: 50px;
+        
+    }
+
+
+    .img-bg{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .wrapper{
+        width: 95%;
+    }
+}
+
+
+
+.big-title{
+    width: 100%;
+    margin: 0px !important;
+    padding: 0px !important;
+    background-color: maroon;
+}
