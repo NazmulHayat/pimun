@@ -41,10 +41,10 @@ export default {
     document.onreadystatechange = () => {
       if (document.readyState == "complete") {
         preloadImages([
-          "../assets/golgal.png",
-          '../assets/og1.jpg',
-          "../assets/pimuncollage.png",
-          "../assets/bg-page.jpg"
+          require("../assets/golgal.png"),
+          require('../assets/og1.jpg'),
+          require("../assets/pimuncollage.png"),
+          require("../assets/bg-page.jpg")
         ], function () {
           console.log('All images were loaded');
           this.isloaded = true;
