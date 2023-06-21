@@ -1,4 +1,5 @@
 <template id="main">
+  <loader />
   <v-row class="mm">
     <template v-for="(image, imgidx) in imageLayout" :key="imgidx">
       <v-col id="im" :cols="image.cols">
@@ -25,7 +26,8 @@
 </template>
 
 
-<script setup>
+<script setup> 
+
   const imageLayout = [
     { cols: 5 },
     { cols: 4 },
@@ -58,7 +60,7 @@
 <style>
 
   #im{
-    padding: 7px !important;
+    padding: 3px !important;
   }
 
 .mm {
@@ -66,4 +68,24 @@
   overflow-y: hidden !important;
   scroll-behavior: smooth;
 }
+
+@media screen and (min-width: 800px) {
+  #im{
+    padding: 5px !important;
+  }
+}
+
+
+@media screen and (min-width: 1000px) {
+  #im{
+    padding: 6px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #im{
+    padding: 7px !important;
+  }
+}
+
 </style>
