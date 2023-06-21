@@ -3,7 +3,7 @@
     <template v-for="(image, imgidx) in imageLayout" :key="imgidx">
       <v-col id="im" :cols="image.cols">
         <v-img :src="require(`../assets/compressed/${imgidx+1}-compressed.jpg`)" cover height = "100%" 
-        lazy-src="require(`@/assets/compressed/10-compressed.jpg)">
+        :lazy-src="require(`../assets/compressed/${imgidx+1}-compressed.jpg`)">
           <template v-slot:placeholder>                                                                                                           
           <v-row
             class="fill-height ma-0"
