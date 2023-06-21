@@ -18,7 +18,7 @@
 
         <v-contianer class="buttons px-4 mx-4">
             <div id="shitbtn1" class="mt-4 pt-4 pb-1 pr-4"   justify="center" align="center" >
-                <v-btn id="no-bg" elevation="24" class="bg-white text-red font-weight-bold" size="large" variant="outlined" >
+                <v-btn id="no-bg" target='_blank' href="https://docs.google.com/forms/d/1VBV62Wsq5s_PQ_0MW5XwHAc9_zHwUQLHPJ0lU_txYxI/edit?pli=1"  elevation="24" class="bg-white text-red font-weight-bold" size="large" variant="outlined" >
                   Register as CA
                   </v-btn>
               </div>

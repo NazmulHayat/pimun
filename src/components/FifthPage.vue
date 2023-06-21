@@ -17,7 +17,7 @@
             <br></p>
           </article>
           <div class="btnwrap pt-4">
-                <v-btn router :to="`/pimun2019`" class="font-weight-black" variant="outlined">View Gallery</v-btn>
+                <v-btn router target='_blank' to="/pimun2019" class="font-weight-black" variant="outlined">View Gallery</v-btn>
             </div>
         </div>
       </div>
