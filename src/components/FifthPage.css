@@ -8,3 +8,18 @@
     color: black !important;
     background-color: white !important;
 }
+
+.about{
+    font-size: 17.5px;
+}
+
+@media screen and (min-width: 470px){
+    .about{
+        font-size: 19px;
+    }
+}
+@media screen and (min-width: 1500px){
+    .about{
+        font-size: 21px;
+    }
+}

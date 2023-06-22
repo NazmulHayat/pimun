@@ -6,7 +6,7 @@
             <v-img id="club-logo" class="pl-4" src="../assets/golgal.png"></v-img>
         </v-contianer>
 
-        <v-contianer class="px-4 pt-4 title text-white">
+        <v-contianer class="px-4 mx-4 pt-4 title text-white">
             <p>PRESIDENCY INTERNATIONAL MODEL UNITED NATIONS 2023</p>
         </v-contianer>
 

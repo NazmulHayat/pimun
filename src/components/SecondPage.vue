@@ -4,8 +4,8 @@
       <v-img class="img-bg" cover src="../assets/bg-page.jpg"></v-img>
       <div class="img-info">
         <div class="pt-4">
-          <div class="aboutus text-h5 pb-2 text-md-h4 font-weight-black">ABOUT US</div>
-          <p class="pimun text-h4 text-md-h3 font-weight-black">PIMUN 2023</p>
+          <div class="aboutus font-weight-black">ABOUT US</div>
+          <p class="pimun font-weight-black">PIMUN 2023</p>
         </div>
         <article class="about pt-3">
           <p>Presidency MUN Club is exhilarated to announce the comeback of our signature event after four long years! We are here again to organize our second and latest edition – Presidency International Model United Nations 2023. We strive to be the best while allowing our peers to compete on an international scale and pushing them to go above and beyond their limits as delegates. The event is scheduled to be hosted from 31st August – 2nd September, 2023 in Presidency International School in the heart of the economic hub of Bangladesh.<br>  </p>

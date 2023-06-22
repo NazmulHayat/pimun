@@ -6,8 +6,8 @@
         </v-img>
         <div class="img-info">
           <div class="pt-4">
-            <div class="aboutus text-h5 pb-2 text-md-h4 font-weight-black">OUR LAST EVENT</div>
-            <p class="pimun text-h4 text-md-h3 font-weight-black">PIMUN 2019</p>
+            <div class="aboutus font-weight-black">OUR LAST EVENT</div>
+            <p class="pimun font-weight-black">PIMUN 2019</p>
           </div>
           <article class="about pt-3">
             <p>In 2019, Chittagong witnessed a groundbreaking event as Presidency International School organised its first-ever Model United Nations conference, the Presidency International Model United Nations 2019. This landmark event brought together approximately 350 delegates from Chittagong, Dhaka, and even overseas, creating a platform for meaningful discussions and diplomatic simulations.<br><br>
