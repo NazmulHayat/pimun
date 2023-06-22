@@ -29,8 +29,9 @@ export default {
          dhet: async()=>
         {
             await WaitUntilFlipDownExists();
-            var twoDaysFromNow = (new Date().getTime() / 1000) + (86400 * 2) + 1;
-            var fku = new FlipDown(twoDaysFromNow, document.getElementById("flipdown"));
+            var desiredDate = new Date('August 31, 2023 08:00:00');
+            var desiredTimestamp = Math.floor(desiredDate.getTime() / 1000);
+            var fku = new FlipDown(desiredTimestamp, document.getElementById("flipdown"));
             fku.start();
         }
     },
