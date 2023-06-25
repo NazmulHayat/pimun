@@ -39,10 +39,10 @@ export default {
   },
   mounted() {
     console.log("shuruurrrr   hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii");
-    // setTimeout(() => {
-    //   this.isloaded = true;
-    //   console.log("hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii");
-    // }, 1000);
+    setTimeout(() => {
+      this.isloaded = true;
+      console.log(" asdasda hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii");
+    }, 5000);
     preloadImages([
       "https://i.ibb.co/xF8Y09y/bgbg.jpg",
       "https://i.ibb.co/VTbWDGC/bg-page.jpg",
