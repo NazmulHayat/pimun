@@ -23,7 +23,7 @@
                   </v-btn>
               </div>
               <div id="shitbtn2" class="mt-4 pt-4 pb-1 pl-4"   justify="center" align="center" >
-                <v-btn  id="no-bg" elevation="24" class="bg-white text-red font-weight-bold" size="large" variant="outlined" >
+                <v-btn  id="no-bg" target='_blank' href="https://docs.google.com/forms/d/1D_xM5ecoxGhk-J9c5hjEzSYOjcOOUvpgDhgnDs9onoM/edit" elevation="24" class="bg-white text-red font-weight-bold" size="large" variant="outlined" >
                   Register as Delegate
                   </v-btn>
               </div>
