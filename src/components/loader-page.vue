@@ -38,19 +38,49 @@ export default {
     }
   },
   mounted() {
-    document.onreadystatechange = () => {
-      if (document.readyState == "complete") {
-        preloadImages([
-          require("../assets/golgal.png"),
-          require('../assets/og1.jpg'),
-          require("../assets/pimuncollage.png"),
-          require("../assets/bg-page.jpg")
-        ], () => {
-          console.log('All images were loaded');
-          this.isloaded = true;
-        });
-      }
-    }
+    console.log("shuruurrrr   hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii");
+    // setTimeout(() => {
+    //   this.isloaded = true;
+    //   console.log("hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii");
+    // }, 1000);
+    preloadImages([
+      "https://i.ibb.co/xF8Y09y/bgbg.jpg",
+      "https://i.ibb.co/VTbWDGC/bg-page.jpg",
+      "https://i.ibb.co/KmsSMNv/munclub.png",
+      "https://i.ibb.co/9t17tw9/pimuncollage.png",
+      "https://i.ibb.co/b7RQF1C/whitepis.png"
+    ], () => {
+      console.log('All images were loaded');
+      this.isloaded = true;
+      preloadImages([
+        require("../assets/compressed/1-compressed.jpg"),
+        require("../assets/compressed/2-compressed.jpg"),
+        require("../assets/compressed/3-compressed.jpg"),
+        require("../assets/compressed/4-compressed.jpg"),
+        require("../assets/compressed/5-compressed.jpg"),
+        require("../assets/compressed/6-compressed.jpg"),
+        require("../assets/compressed/7-compressed.jpg"),
+        require("../assets/compressed/8-compressed.jpg"),
+        require("../assets/compressed/9-compressed.jpg"),
+        require("../assets/compressed/10-compressed.jpg"),
+        require("../assets/compressed/11-compressed.jpg"),
+        require("../assets/compressed/12-compressed.jpg"),
+        require("../assets/compressed/13-compressed.jpg"),
+        require("../assets/compressed/14-compressed.jpg"),
+        require("../assets/compressed/15-compressed.jpg"),
+        require("../assets/compressed/16-compressed.jpg"),
+        require("../assets/compressed/17-compressed.jpg"),
+        require("../assets/compressed/18-compressed.jpg"),
+        require("../assets/compressed/19-compressed.jpg"),
+        require("../assets/compressed/20-compressed.jpg"),
+        require("../assets/compressed/21-compressed.jpg"),
+        require("../assets/compressed/22-compressed.jpg"),
+        require("../assets/compressed/23-compressed.jpg"),
+      ], () => {
+        console.log('All GALLERY FFS images were loaded');
+      });
+    });
+
   },
 }
 </script>

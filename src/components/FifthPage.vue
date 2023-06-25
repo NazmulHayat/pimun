@@ -1,7 +1,7 @@
 <template>
     <section class="second  px-4 mx-4 mb-4">
       <div class="wrapper">
-        <v-img router :to="`/pimun2019`" class="img-bg" cover src="../assets/pimuncollage.png">
+        <v-img router :to="`/pimun2019`" class="img-bg" cover src="https://i.ibb.co/9t17tw9/pimuncollage.png">
 
         </v-img>
         <div class="img-info">

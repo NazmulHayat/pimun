@@ -2,8 +2,8 @@
     <section class="first">
 
         <v-contianer class="px-4 images py-4">
-            <v-img id="main-logo" src="../assets/whitepis.png"></v-img>
-            <v-img id="club-logo" class="pl-4" src="../assets/golgal.png"></v-img>
+            <v-img id="main-logo" src="https://i.ibb.co/b7RQF1C/whitepis.png"></v-img>
+            <v-img id="club-logo" class="pl-4" src="https://i.ibb.co/KmsSMNv/munclub.png"></v-img>
         </v-contianer>
 
         <v-contianer class="px-4 mx-4 pt-4 title text-white">

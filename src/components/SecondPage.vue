@@ -1,7 +1,7 @@
 <template>
   <section class="second  px-4 mx-4 mb-4">
     <div class="wrapper">
-      <v-img class="img-bg" cover src="../assets/bg-page.jpg"></v-img>
+      <v-img class="img-bg" cover src="https://i.ibb.co/VTbWDGC/bg-page.jpg"></v-img>
       <div class="img-info">
         <div class="pt-4">
           <div class="aboutus font-weight-black">ABOUT US</div>
