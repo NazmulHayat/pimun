@@ -91,34 +91,29 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap !important;
 }
 
 
-
-
-
-@media screen and (max-width: 618px) {
-    .buttons{
-        flex-direction: column;
-    }
-
-    #shitbtn1{
-        padding-right: 0px !important;
-    }
-    #shitbtn2{
-        padding-left: 0px !important;
-    }
-}
 
 @media screen and (max-width: 550px) {
     #timer{
         padding-bottom: 10px !important;
     }
+
 }
 
-@media screen and (max-width: 618px) {
-    #shitbtn2{
-        padding-top: 6px !important;
+@media screen and (max-width: 751px) {
+    #shitbtn3{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+
+@media screen and (max-width: 566px) {
+    #shitbtn3{
+        padding-left: 16px !important;
+        padding-right: 16px !important;
     }
 }
 
