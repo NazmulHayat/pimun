@@ -44,19 +44,19 @@ export default {
             //   goto(nm)
             // ],
             slides: [
-                {idx:'1', img: require('@/assets/undp.jpeg'), header: "United Nation Development Program", short: "UNDP", pd: "https://drive.google.com/file/d/1UKq2mGub_iSMmdZx0QJkNPCbZgKZRmLC/view", topic: "Agenda: ",
+                {idx:'1', img: require('@/assets/undp-min.jpeg'), header: "United Nation Development Program", short: "UNDP", pd: "https://drive.google.com/file/d/1UKq2mGub_iSMmdZx0QJkNPCbZgKZRmLC/view", topic: "Agenda: ",
                   agenda:"Reneweable energy to achieve substainable cities and transport"
                 }, 
-                {idx:'2', img: require('@/assets/unhrc.jpeg'), header: "United Nations High Commissioner for Refugees", short: "UNHCR", pd: "https://drive.google.com/file/d/1jpJo1Gt2tqaPXmCt7veXTKAtMv0i3yia/view", topic: "Agenda: ",
+                {idx:'2', img: require('@/assets/unhrc-min.jpeg'), header: "United Nations High Commissioner for Refugees", short: "UNHCR", pd: "https://drive.google.com/file/d/1jpJo1Gt2tqaPXmCt7veXTKAtMv0i3yia/view", topic: "Agenda: ",
                 agenda:"Legal Status of Refugees and Internally Displaced Persons in Camps"
                 },  
-                {idx:'3', img: require('@/assets/unicef.jpeg'), header: "United Nations International Children's Emergency Fund", short: "UNICEF", pd: "https://drive.google.com/file/d/1oN0W4l8DYYMgztqEqpZoY_buW3Cxc2I1/view", topic: "Agenda: ", 
+                {idx:'3', img: require('@/assets/unicef-min.jpeg'), header: "United Nations International Children's Emergency Fund", short: "UNICEF", pd: "https://drive.google.com/file/d/1oN0W4l8DYYMgztqEqpZoY_buW3Cxc2I1/view", topic: "Agenda: ", 
                   agenda:"Children with disabilities, along with adults with disabilities, are to have full life with dignity."}, 
-                {idx:'4', img: require('@/assets/unsc.jpeg'), header: "United Nation Security Council", short: "UNSC", pd: "https://drive.google.com/file/d/1vUPmNtH4YTDsz5Znu1oaQvZ-A21odBfV/view", topic: "Agenda: ", 
+                {idx:'4', img: require('@/assets/unsc-min.jpeg'), header: "United Nation Security Council", short: "UNSC", pd: "https://drive.google.com/file/d/1vUPmNtH4YTDsz5Znu1oaQvZ-A21odBfV/view", topic: "Agenda: ", 
                   agenda:"Combating Violent Sectarian Extremism in the Middle"},
-                {idx:'5', img: require('@/assets/unw.jpeg'), header: "United Nation Women", short: "UN Women", agenda:"Reproductive Rights for Women Working in the Labour Force", pd:"https://drive.google.com/file/d/1vqgAJfkxTMn4OEhvLa4GfVVknIKDlQ6F/view", topic: "Agenda: "},
-                {idx:'7', img: require('@/assets/disec.jpeg'), header: 'Disarmament & International Security Committee', short: 'DISEC', agenda: "Curbing the global threat of Cyberterrorism", pd:"https://drive.google.com/file/d/1cp7bQIxe8DgJ0qPH21BiJKQkbT7SpLdN/view", topic: "Agenda: "},
-                {idx:'6', img: require('@/assets/international_press.jpeg'), header: "International Press", short: "International Press", agenda: "The Power of Visual Storytelling - Photography and Peace Advocacy", pd:"https://drive.google.com/file/d/1_Tjqb277kORQdAy5aRX0YhMfhzLv2Kkx/view", topic: "Theme: "}
+                {idx:'5', img: require('@/assets/unw-min.jpeg'), header: "United Nation Women", short: "UN Women", agenda:"Reproductive Rights for Women Working in the Labour Force", pd:"https://drive.google.com/file/d/1vqgAJfkxTMn4OEhvLa4GfVVknIKDlQ6F/view", topic: "Agenda: "},
+                {idx:'7', img: require('@/assets/disec-min.jpeg'), header: 'Disarmament & International Security Committee', short: 'DISEC', agenda: "Curbing the global threat of Cyberterrorism", pd:"https://drive.google.com/file/d/1cp7bQIxe8DgJ0qPH21BiJKQkbT7SpLdN/view", topic: "Agenda: "},
+                {idx:'6', img: require('@/assets/international_press-min.jpeg'), header: "International Press", short: "International Press", agenda: "The Power of Visual Storytelling - Photography and Peace Advocacy", pd:"https://drive.google.com/file/d/1_Tjqb277kORQdAy5aRX0YhMfhzLv2Kkx/view", topic: "Theme: "}
             ],
             expand: false
         }
