@@ -5,6 +5,7 @@
     <SecondPage />
     <FourthPage />
     <FifthPage />
+    <Carousel />
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import FirstPage from '../components/FirstPage.vue';
 import SecondPage from '../components/SecondPage.vue';
 import FourthPage from '../components/FourthPage.vue';
 import FifthPage from '../components/FifthPage.vue';
+import Carousel from '@/components/Carousel.vue';
 
 export default defineComponent({
   name: 'HomeView',
@@ -28,7 +30,8 @@ export default defineComponent({
     SecondPage,
     FourthPage,
     FifthPage,
-  },
+    Carousel
+},
 });
 
 </script>
