@@ -76,13 +76,13 @@ export default {
         require("../assets/compressed/21-compressed.jpg"),
         require("../assets/compressed/22-compressed.jpg"),
         require("../assets/compressed/23-compressed.jpg"),
-        require('@/assets/undp-min.jpeg'),
-        require('@/assets/unhrc-min.jpeg'),
-        require('@/assets/unicef-min.jpeg'),
-        require('@/assets/unsc-min.jpeg'),
-        require('@/assets/unw-min.jpeg'),
-        require('@/assets/disec-min.jpeg'),
-        require('@/assets/international_press-min.jpeg'),
+        require('@/assets/undp-min-b.jpg'),
+        require('@/assets/unhcr-min-b.jpg'),
+        require('@/assets/unicef-min-b.jpg'),
+        require('@/assets/unsc-min-b.jpg'),
+        require('@/assets/unw-min-b.jpg'),
+        require('@/assets/disec-min-b.jpg'),
+        require('@/assets/international_press-min-b.jpg'),
         
       ], () => {
         console.log('All GALLERY FFS images were loaded');
