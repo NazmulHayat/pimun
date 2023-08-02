@@ -75,6 +75,7 @@ export default {
 
 #item-img{
     height: 100%;
+    background-color: black;
  
 }
 
