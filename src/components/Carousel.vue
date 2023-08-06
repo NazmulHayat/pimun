@@ -54,7 +54,7 @@ export default {
                   agenda:"Children with disabilities, along with adults with disabilities, are to have full life with dignity."}, 
                 {idx:'4', img: require('@/assets/unsc-min-b.jpg'), header: "United Nation Security Council", short: "UNSC", pd: "https://drive.google.com/file/d/1MxkWL93kvN_6W4Dz7blkMp-UhLBPJXSV/view", topic: "Agenda: ", 
                   agenda:"Combating Violent Sectarian Extremism in the Middle"},
-                {idx:'5', img: require('@/assets/unw-min-b.jpg'), header: "United Nation Women", short: "UN Women", agenda:"Reproductive Rights for Women Working in the Labour Force", pd:"https://drive.google.com/file/d/1wODcJ6MK-woUagZbsjbXS8jKUUxE5Aiq/view", topic: "Agenda: "},
+                {idx:'5', img: require('@/assets/unw-min-b.jpg'), header: "United Nation Women", short: "UN Women", agenda:"Reproductive Rights for Women Working in the Labour Force", pd:"https://drive.google.com/file/d/1pst_SEYz3Xa0z4PNBSGIUrRZKxX0knX2/view", topic: "Agenda: "},
                 {idx:'7', img: require('@/assets/disec-min-b.jpg'), header: 'Disarmament & International Security Committee', short: 'DISEC', agenda: "Curbing the global threat of Cyberterrorism", pd:"https://drive.google.com/file/d/1yDUQavyHOtHPwYj4XW8DHATv2Sq0WAZW/view", topic: "Agenda: "},
                 {idx:'6', img: require('@/assets/international_press-min-b.jpg'), header: "International Press", short: "International Press", agenda: "The Power of Visual Storytelling - Photography and Peace Advocacy", pd:"https://drive.google.com/file/d/1_Tjqb277kORQdAy5aRX0YhMfhzLv2Kkx/view", topic: "Theme: "}
             ],
